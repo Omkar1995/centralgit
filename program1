@@ -1,0 +1,14 @@
+#include<stdio.h>
+main()
+{
+  char s[10];
+  int i;
+  scanf("enter a string:%s", str);
+  printf("entered string is %s\n", str);
+  
+  for(i=0; s[i]; i++)
+  {
+    if(s[i] == 'k')
+      printf("got k\n");
+  }
+}
